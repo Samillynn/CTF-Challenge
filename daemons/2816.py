@@ -132,7 +132,7 @@ def random_judger():
 
 class Challenge:
     def __init__(self):
-        self.flag = 'fcs22{24005}'
+        self.flag = challenge_config.flag
         self.before_input = challenge_config.before_input_reminder
 
     @staticmethod

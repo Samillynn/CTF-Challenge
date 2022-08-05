@@ -1,3 +1,5 @@
+flag = "fcs22{24005}"
+
 long_responses = ['Bro be cautious! This is too small!',
                   'This number is just right! Congratulations!',
                   'Bro be cautious! This is too large!']
