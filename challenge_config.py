@@ -7,7 +7,8 @@ long_responses = ['Bro be cautious! This is too small!',
 short_responses = ['larger', 'correct', 'smaller']
 
 before_input_reminder = 'Give me your guess number in the format of {"guess": "fcs22{YOUR GUESS}"}, ' \
-                        'e.g. {"guess": "fcs22{100}"}\n'
+                        'e.g. {"guess": "fcs22{100}"}\n' \
+                        '(The range of the flag is from 0 to 100,000)\n'
 
 transpose_key = '521304'
 substitute_key = 'fcpevqkzgmtrayonujdlwhbxsi'
