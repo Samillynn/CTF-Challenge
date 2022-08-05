@@ -109,7 +109,7 @@ def random_xor(message, format_ascii, format_sequences):
     asciis = [ord(c) for c in message]
     random_stream = [random.randrange(2 ** 7) for _ in message]
     xor_result = [x ^ y for x, y in zip(asciis, random_stream)]
-    return format_sequences(ints_to_binary_str(asciis), ints_to_binary_str(xor_result))
+    return format_sequences(ints_to_binary_str(random_stream), ints_to_binary_str(xor_result))
 
 
 def random_xor_judger():
